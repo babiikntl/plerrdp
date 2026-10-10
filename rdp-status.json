@@ -8,8 +8,8 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-10T22:47:31Z",
-  "expires_at": "2026-10-11T04:42:31Z",
+  "started_at": "2026-10-10T22:51:58Z",
+  "expires_at": "2026-10-11T04:46:58Z",
   "duration_menit": 355,
   "run_id": "38092458767",
   "run_number": "1",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "mode": "software",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "mesa": "26.2.4",
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "mesa": "26.2.4",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "mode": "software",
     "adapters": "Microsoft Hyper-V Video",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "dir": "C:\\XyRDP\\grafis",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "debug": "",
-    "dir": "C:\\XyRDP\\grafis"
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)"
   },
   "extras": {
     "lightshot": "skip",
@@ -64,8 +64,8 @@
   },
   "akses": {
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal, exit 1603",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
@@ -73,5 +73,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-10T22:48:14Z"
+  "stopped_at": "2026-10-10T22:52:43Z"
 }
