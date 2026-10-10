@@ -8,8 +8,8 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-10T23:23:08Z",
-  "expires_at": "2026-10-11T05:18:08Z",
+  "started_at": "2026-10-10T23:43:39Z",
+  "expires_at": "2026-10-11T05:38:39Z",
   "duration_menit": 355,
   "run_id": "38094557451",
   "run_number": "3",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "debug": "",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
     "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "dir": "C:\\XyRDP\\grafis",
     "mode": "software",
-    "mesa": "26.2.4",
-    "adapters": "Microsoft Hyper-V Video",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll"
+    "mesa": "26.2.4",
+    "debug": "",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "adapters": "Microsoft Hyper-V Video",
+    "dir": "C:\\XyRDP\\grafis"
   },
   "extras": {
     "lightshot": "skip",
@@ -65,13 +65,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "note": "Installer Tailscale gagal setelah retry, lihat log: C:\\ProgramData\\RdpFree\\access\\tailscale-install.log",
       "status": "failed",
+      "note": "Installer Tailscale gagal setelah retry, lihat log: C:\\ProgramData\\RdpFree\\access\\tailscale-install.log",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-10T23:36:27Z"
+  "stopped_at": "2026-10-10T23:57:17Z"
 }
