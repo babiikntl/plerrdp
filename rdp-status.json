@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-2",
+  "hostname": "rdpfree-3",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-10T23:10:16Z",
-  "expires_at": "2026-10-11T05:05:16Z",
+  "started_at": "2026-10-10T23:23:08Z",
+  "expires_at": "2026-10-11T05:18:08Z",
   "duration_menit": 355,
-  "run_id": "38093801854",
-  "run_number": "2",
-  "run_url": "https://github.com/babiikntl/plerrdp/actions/runs/38093801854",
+  "run_id": "38094557451",
+  "run_number": "3",
+  "run_url": "https://github.com/babiikntl/plerrdp/actions/runs/38094557451",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
     "debug": "",
-    "dir": "C:\\XyRDP\\grafis",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "adapters": "Microsoft Hyper-V Video",
-    "mesa": "26.2.4",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "mode": "software"
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "dir": "C:\\XyRDP\\grafis",
+    "mode": "software",
+    "mesa": "26.2.4",
+    "adapters": "Microsoft Hyper-V Video",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll"
   },
   "extras": {
     "lightshot": "skip",
@@ -63,15 +63,15 @@
     "admin": true
   },
   "akses": {
+    "mode": "tailscale",
     "tailscale": {
-      "note": "Installer Tailscale gagal, exit 1603",
+      "note": "Installer Tailscale gagal setelah retry, lihat log: C:\\ProgramData\\RdpFree\\access\\tailscale-install.log",
       "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    },
-    "mode": "tailscale"
+    }
   },
-  "stopped_at": "2026-10-10T23:11:02Z"
+  "stopped_at": "2026-10-10T23:36:27Z"
 }
