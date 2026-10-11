@@ -1,28 +1,20 @@
 {
   "active": false,
-  "hostname": "rdpfree-3",
+  "hostname": "rdpfik-4",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
   "rdp_port": 3389,
-  "rdp_user": "xyadmin",
+  "rdp_user": "FikProject",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T00:03:03Z",
-  "expires_at": "2026-10-11T05:58:03Z",
+  "started_at": "2026-10-11T00:25:43Z",
+  "expires_at": "2026-10-11T06:20:43Z",
   "duration_menit": 355,
-  "run_id": "38094557451",
-  "run_number": "3",
-  "run_url": "https://github.com/babiikntl/plerrdp/actions/runs/38094557451",
+  "run_id": "38098136870",
+  "run_number": "4",
+  "run_url": "https://github.com/babiikntl/plerrdp/actions/runs/38098136870",
   "mode": "bersih+win10",
-  "win10": {
-    "look": "ok",
-    "badge": "ok",
-    "wallpaper": "ok",
-    "search": "ok",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
-  },
   "xydesk": {
     "host": "ok",
     "denyts": "ok",
@@ -41,17 +33,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "adapters": "Microsoft Hyper-V Video",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
     "debug": "",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "mesa": "26.2.4",
-    "mode": "software",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
     "dir": "C:\\XyRDP\\grafis",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)"
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "mode": "software",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat."
   },
   "extras": {
     "lightshot": "skip",
@@ -65,13 +57,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal setelah retry, lihat log: C:\\ProgramData\\RdpFree\\access\\tailscale-install.log",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-11T00:16:30Z"
+  "stopped_at": "2026-10-11T00:38:29Z"
 }
